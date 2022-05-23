@@ -166,7 +166,7 @@ function dvwaSQLiDBGet() {
 
 function dvwaLocaleSet( $pLocale ) {
 	$dvwaSession =& dvwaSessionGrab();
-	$locales = array('en', 'zh');
+	$locales = array('en', 'zh', 'ar');
 	if( in_array( $pLocale, $locales) ) {
 		$dvwaSession[ 'locale' ] = $pLocale;
 	} else {
