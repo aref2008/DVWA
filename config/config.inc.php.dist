@@ -44,7 +44,7 @@ $_DVWA[ 'default_phpids_verbose' ] = 'false';
 
 # Default locale
 #   Default locale for the help page shown with each session.
-#   The default is 'en'. You may wish to set this to either 'en' or 'zh'.
+#   The default is 'en'. You may wish to set this to either 'en', 'ar' or 'zh'.
 $_DVWA[ 'default_locale' ] = 'en';
 
 define ("MYSQL", "mysql");
